@@ -15,7 +15,7 @@ Copy and Paste your new API Key and save in a secure place
 
 ### Step 4 : Clone this repository
 Make sure Git is installed on your machine. If not, go to : https://git-scm.com/downloads and download it
-Once you're done, open the cmd or your terminal in your Code Editor (VSCode, Cursor, etc.) and copy/paste ```git clone https://github.com/alangnt/tuto-ai-customer-chat.git```
+Once you're done, open the cmd or your terminal in your Code Editor (VSCode, Cursor, etc.) and copy/paste ```git clone https://github.com/alangnt/ai-easychat.git```
 
 ### Step 5 : Install all necessary dependencies
 Open your Code Editor and navigate to your newly added project folder
