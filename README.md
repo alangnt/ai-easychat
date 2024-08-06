@@ -27,3 +27,5 @@ Navigate to the .env.local file and replace ```YOUR_API_KEY``` with your saved A
 ### Step 7 : Let your imagination do the talking !
 Hit ```npm run dev``` (or ```npm build```) to verify that everything's working fine
 And you're good to go. Now it's time to work on the Front End and add some magic to your website !
+
+Huge shoutout to HuggingFaceH4 and their wonderful zephyr 7b which works brilliantly and is completely free to use ! You can see more of their work here : https://huggingface.co/HuggingFaceH4
