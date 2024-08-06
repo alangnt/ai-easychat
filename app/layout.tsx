@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tuto AI Customer Chat",
-  description: "Tuto AI Customer Chat",
+  title: "AI Easy Chat",
+  description: "AI EasyChat is a game-changer. Clone the repo, follow a few steps, and boom - you've got an AI chatbot on your NextJS app !",
 };
 
 export default function RootLayout({
