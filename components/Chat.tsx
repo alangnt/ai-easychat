@@ -40,22 +40,23 @@ const Chat: React.FC = () => {
   };
 
   return (
-    <div>
-      <div className="messages">
+    <div className='flex flex-col w-5/6 h-full justify-center items-center gap-8'>
+      <div className="messages w-2/6 flex flex-col gap-4">
         {messages.map((msg, index) => (
           <div key={index} className={`message ${msg.role}`}>
             {msg.content}
           </div>
         ))}
       </div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className='flex flex-row w-2/6 justify-center items-center gap-2'>
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Type your message..."
+          className='border-2 border-gray-300 rounded-md p-2 w-full'
         />
-        <button type="submit">Send</button>
+        <button type="submit" className='hover:bg-gray-300 p-2 rounded-md'>Send</button>
       </form>
     </div>
   );
