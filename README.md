@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Easy Tutorial to get a free AI Customer Chat in your NextJS project.
 
-## Getting Started
+### Step 1 : Create a HuggingFace account
+Go to https://huggingface.co/ and Create an Account
+Once you're done, verify your email to get started
 
-First, run the development server:
+### Step 2 : Create your Access Token (API Key)
+Click on your avatar and navigate to "Settings"
+Click on "Access Tokens" then "Create new token"
+Give it a name and access if you want (I personally give it all credentials)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Step 3 : Save your newly created Access Token
+Copy and Paste your new API Key and save in a secure place
+!!! Once you clicked on "Done", you cannot see your API Key again !!!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Step 4 : Clone this repository
+Make sure Git is installed on your machine. If not, go to : https://git-scm.com/downloads and download it
+Once you're done, open the cmd or your terminal in your Code Editor (VSCode, Cursor, etc.) and copy/paste ```git clone https://github.com/alangnt/tuto-ai-customer-chat.git```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Step 5 : Install all necessary dependencies
+Open your Code Editor and navigate to your newly added project folder
+Hit ```npm install``` and ```npm install @huggingface/inference``` to install all the required dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Step 6 : Replace your API Key
+Navigate to the .env.local file and replace ```YOUR_API_KEY``` with your saved Access Token
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Step 7 : Let your imagination do the talking !
+Hit ```npm run dev``` (or ```npm build```) to verify that everything's working fine
+And you're good to go. Now it's time to work on the Front End and add some magic to your website !
